@@ -1,0 +1,48 @@
+.navbar {
+  background-color: #2c0e3a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 0px 20px;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+}
+.scoreboard {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+.score-label {
+  font-size: 12px;
+}
+.score {
+  margin-right: 30px;
+  font-size: 18px;
+  color: #fec653;
+  margin-left: 3px;
+}
+.timer {
+  width: 18px;
+}
+@media screen and (min-width: 768px) {
+  .navbar {
+    padding: 0px 80px;
+  }
+  .logo {
+    width: 150px;
+  }
+}

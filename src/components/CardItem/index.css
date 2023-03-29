@@ -1,0 +1,19 @@
+.image-item {
+  width: 25%;
+  padding: 2px;
+}
+.img-btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.thumbnail {
+  width: 100%;
+}
+@media all and (min-width: 768px) {
+  .image-item {
+    width: 19%;
+    padding: 4px;
+  }
+}
